@@ -9,7 +9,7 @@ services:
       - POSTGRES_PASSWORD=root
       - POSTGRES_USER=admin
     image: postgres:15.1-alpine
-# docker-compose up --build   # Это строка выполнения при самом первом запуске "docker-compose.yaml"
+# docker-compose up --build  # Это строка выполнения при самом первом запуске "docker-compose.yaml"
 
   # create_database:
   #   container_name: create_database
